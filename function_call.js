@@ -46,3 +46,11 @@ function greeet(greeting) {
 
 const userr = { name: "Max" };
 console.log(greeet.call(userr, "Hello"));
+
+// apply() similar to call()
+function greeet(greeting) {
+  return `${greeting}, ${this.name}`;
+}
+
+const userr2 = { name: "Max" };
+console.log(greeet.apply(userr2, ["Hello"]));
