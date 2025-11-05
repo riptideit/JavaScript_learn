@@ -32,3 +32,10 @@ function hello4() {
 setTimeout(function () {
   console.log(`Hello`);
 }, 3000);
+
+// another example
+
+const numbers = [1, 2, 3, 4, 5, 6];
+const square = numbers.map((elements) => Math.pow(elements, 2));
+
+console.log(square);
