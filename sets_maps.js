@@ -27,3 +27,14 @@ console.log({ uniquevalues });
 // converting the set into an array now
 const newval = [...uniquevalues]; // this way, we can convert sets into an array
 console.log(newval);
+
+const newList = new Set();
+
+newList.add(1);
+newList.add(2);
+
+console.log({ newList });
+
+newList.forEach((value) => {
+  console.log({ value });
+});
