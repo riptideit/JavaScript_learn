@@ -56,3 +56,14 @@ while (index < str4.length) {
 let sss = "welcome to whatever this is";
 let check = sss.includes("to wh");
 console.log(check);
+
+//
+const abc = ["ac", "adf", "wrwe", "aft", "yetr"];
+
+for (let i = 0; i < abc.length; i++) {
+  console.log(abc[i]);
+}
+
+for (let name of abc) {
+  console.log(name);
+}
